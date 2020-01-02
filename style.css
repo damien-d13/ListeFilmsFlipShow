@@ -102,12 +102,13 @@ section{
   
   /* This container is needed to position the front and back side */
   .flip-card-inner {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    
  
   }
   
